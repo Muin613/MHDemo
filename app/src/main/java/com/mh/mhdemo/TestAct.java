@@ -1,6 +1,8 @@
 package com.mh.mhdemo;
 
+import android.animation.ObjectAnimator;
 import android.view.View;
+import android.view.animation.AnimationSet;
 
 import com.mh.mhdemo.MHBase.Act.BaseAct;
 import com.mh.mhdemo.MHBase.Annotation.Interface.MHBaseInject;
@@ -12,6 +14,7 @@ import com.mh.mhdemo.MHBase.Annotation.Utils.MHInject;
  */
 @MHBaseInject(bodyId = R.layout.body, headerId = R.layout.header)
 public class TestAct extends BaseAct {
+
 
     @MHViewInject(R.id.body)
     View body;
@@ -37,8 +40,10 @@ public class TestAct extends BaseAct {
             public void onClick(View v) {
                 System.out.println("dian ji e ");
                 body.setBackgroundResource(R.color.white);
+
             }
         });
         System.out.println("laile?"+System.currentTimeMillis());
+
     }
 }

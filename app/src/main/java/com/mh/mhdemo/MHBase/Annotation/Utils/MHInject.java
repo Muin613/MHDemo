@@ -10,7 +10,6 @@ import android.widget.RelativeLayout;
 import com.mh.mhdemo.MHBase.Annotation.Error.MHNullException;
 import com.mh.mhdemo.MHBase.Annotation.Interface.MHBaseInject;
 import com.mh.mhdemo.MHBase.Annotation.Interface.MHViewInject;
-import com.mh.mhdemo.TestAct;
 
 import java.lang.reflect.Field;
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="mh_skin">
+        <!--皮肤资源文件一般是drawable，color-->
+        <attr name="mh_drawable" format="boolean" />
+        <attr name="mh_color" format="boolean" />
+    </declare-styleable>
+</resources>
